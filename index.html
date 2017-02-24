@@ -7,15 +7,10 @@
   <title>Ping-Pong</title>
 </head>
 <body>
-  <div class="jumbotron0">
-    <div class="container1">
-      <h1 class="header">Ping-Pong</h1></span>
-    </div>
-  </div>
-  <div class="jumbotron">
-    <div class="container">
 
-        <div class="sidebar">
+    <div class="container">
+      <h1 class="header">Ping-Pong</h1></span>
+        <div class="sidebar col-md-6">
           <bold><h1>About pingpong:</h1></bold>
           <h5>Created by:</h5>
           <p>Emmanuel Mbungu</p>
@@ -25,8 +20,8 @@
           <p>Javascript</p>
         </div>
 
-      <div class="col-md-10 project">
-        <div class="content">
+      <div class="container col-md-6">
+        <div class="maintext">
           <!--form-->
           <form id="pingPongForm">
             <h1>Let's play!</h1>
@@ -41,13 +36,12 @@
               <label for="number">Enter your number please:</label>
               <input id="number" class="formcontrol " required=" " type="text "></input>
               <button class="btn">Ping-Pong!</button>
-            </div>
+            </div><!--end of form-group-->
             <div id="userOutput"></div>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
+          </form><!--end of form-->
+        </div><!--end of main text-->
+      </div><!--end of project-->
+</div><!--end of container-->
   <script src="js/jquery-3.1.1.js"></script>
   <script src="js/scripts.js"></script>
 </body>
