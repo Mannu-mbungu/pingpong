@@ -1,0 +1,132 @@
+html, body {
+  height: 100%;
+}
+
+p {font-size: 14px;
+
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+
+
+
+.part1 {
+  background-image: url("../img/backgrounds/landing.jpg");
+  min-height: 350px;
+  text-align: center;
+  width: auto;
+  padding-bottom:5%;
+
+
+}
+
+#section1 {
+  min-width: 100%;
+
+}
+
+
+
+#breakfast-img {
+  background-image: url("../img/foodtop/breakfast.jpg");
+  height: 200px;
+  padding-top: 15px;
+
+
+}
+
+#lunch-img {
+  background-image: url("../img/foodtop/lunch.jpg");
+  height: 200px;
+  padding-top: 15px;
+
+}
+
+#dinner-img {
+  background-image: url("../img/foodtop/dinner.jpg");
+  height: 200px;
+  padding-top: 15px;
+
+  }
+
+
+  .foods p {
+  margin-left: 2px;
+  font-size: 30px;
+
+  }
+
+#fastfood {
+  padding-top: 50px;
+  padding-left: 50px;
+
+}
+
+#drinks {
+  padding-top: 50px;
+
+}
+
+#section3 {
+  background-image: url("../img/backgrounds/foodsBg.jpg");
+min-width: 100%;
+height: 400px;
+background-repeat: no-repeat;
+background-position: center;
+padding-top: 60px;
+padding-left: 100px;
+margin-right: 50px;
+
+
+
+}
+
+#rowbox {
+  background-color: white;
+  text-align: center;
+  width: 100%;
+  height: 300px;
+
+}
+
+
+div.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the links inside the tab */
+div.tab a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+div.tab a:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+div.tab a:focus, .active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
