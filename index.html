@@ -1,72 +1,54 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width initial-scale=1.0">
-  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
   <title>Ping-Pong</title>
 </head>
-
 <body>
-  <div class="content1">
-
-    <h1 class="header"> Ping-Pong </h1>
-    <div class="sidebar col-md-6">
-      <bold>
-        <h4>About PingPong</h4></bold>
-      <h5>Created by:</h5>
-      <p>Emmanuel Mbungu</p>
-      <h5>Github-Username/URL:</h5>
-      <p>mannu-mbungu.github.io/pingpong</p>
-      <h5>Level 2 test for:</h5>
-      <p>Java</p>
-
+  <div class="jumbotron0">
+    <div class="container1">
+      <h1 class="header">Ping-Pong</h1></span>
     </div>
-    <div class="container col-md-6">
-
-      <h2> Let's Play!</h2>
-      <h3>Rules:</h3>
-      <p> Ping-pong will count up to your number from 1 with the following exceptions: </p>
-
-      <ol>
-        <li>Numbers divisible by 3 become "ping"</li>
-        <li>Numbers divisible by 5 become "pong"</li>
-        <li>Numbers divisible by 3 and 5 become "pingpong"</li>
-
-      </ol>
-
-
-      <div id="pingpong">
-       <form>
-        <div class="form-group">
-        <label for="form#pingPongForm">Enter your number:</label>
-        <input id="number" class="form-control" type="number">
-      </div>
-      <button type="submit" class="btn">Pingpong</button>
-      </form>
-    </div>
-
-
-
-
-    </div>
-
-
-
-
   </div>
+  <div class="jumbotron">
+    <div class="container">
 
+        <div class="sidebar">
+          <bold><h1>About pingpong:</h1></bold>
+          <h5>Created by:</h5>
+          <p>Emmanuel Mbungu</p>
+          <h5>Github username/URL</h5>
+          <p>mannu-mbungu.github.io/pingpong.github.io</p>
+          <h5>Level 2 Test for:</h5>
+          <p>Javascript</p>
+        </div>
 
-
-
-
-
-
+      <div class="col-md-10 project">
+        <div class="content">
+          <!--form-->
+          <form id="pingPongForm">
+            <h1>Let's play!</h1>
+            <h2>Rules!</h2>
+            <p>PingPong will count your number with the following exceptions</p>
+            <ol>
+              <li>Numbers divisible by 3 becomes "ping"</li>
+              <li>Numbers divisible by 5 becomes "pong"</li>
+              <li>Numbers divisible by 15 becomes "pingpong"</li>
+            </ol>
+            <div class="form-group">
+              <label for="number">Enter your number please:</label>
+              <input id="number" class="formcontrol " required=" " type="text "></input>
+              <button class="btn">Ping-Pong!</button>
+            </div>
+            <div id="userOutput"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/jquery-3.1.1.js"></script>
   <script src="js/scripts.js"></script>
 </body>
-
-</html>
-
 </html>

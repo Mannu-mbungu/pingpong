@@ -9,8 +9,6 @@
 
 }
 
-.content1 {
-}
 
 .sidebar {
   width: 30%;
@@ -18,7 +16,8 @@
   float: left;
   margin: 10px;
   background-color: lightblue;
-  padding-left: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
 
 }
 
